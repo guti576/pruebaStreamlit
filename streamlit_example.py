@@ -27,16 +27,16 @@ rename_columns = {
 }
 
 # Letters
-letters_date = pd.read_excel('./actuals/letters.xlsx', sheet_name='date')
+letters_date = pd.read_excel('./letters.xlsx', sheet_name='date')
 letters_skill = None
 
 # W2C PI
-w2c_pi_date = pd.read_excel('./actuals/w2c_pi.xlsx', sheet_name='date')
-w2c_pi_skill = pd.read_excel('./actuals/w2c_pi.xlsx', sheet_name='skill')
+w2c_pi_date = pd.read_excel('./w2c_pi.xlsx', sheet_name='date')
+w2c_pi_skill = pd.read_excel('./w2c_pi.xlsx', sheet_name='skill')
 
 # W2C Post90
-post90_date = pd.read_excel('./actuals/post90.xlsx', sheet_name='date')
-post90_skill = pd.read_excel('./actuals/post90.xlsx', sheet_name='skill')
+post90_date = pd.read_excel('./post90.xlsx', sheet_name='date')
+post90_skill = pd.read_excel('./post90.xlsx', sheet_name='skill')
 
 # Sidebar for product selection
 st.sidebar.header("Filter by Product")
